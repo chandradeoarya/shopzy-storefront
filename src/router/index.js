@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Product from "@/views/Product";
 import Category from "@/views/Category";
+import Search from "../views/Search.vue";
 
 const routes = [
   {
@@ -27,6 +28,11 @@ const routes = [
     path: "/:category_slug/",
     name: "Category",
     component: Category,
+  },
+  {
+    path: "/search",
+    name: "Search",
+    component: Search,
   },
 ];
 
