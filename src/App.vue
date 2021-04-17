@@ -2,7 +2,7 @@
   <div id="wrapper">
     <nav class="navbar is-dark">
       <div class="navbar-brand">
-        <router-link to="/" class="navbar-item"><strong>Djackets</strong></router-link>
+        <router-link to="/" class="navbar-item"><strong>Checkroof</strong></router-link>
 
         <a class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu" @click="showMobileMenu = !showMobileMenu">
           <span aria-hidden="true"></span>
@@ -12,8 +12,9 @@
       </div>
       <div class="navbar-menu" id="navbar-menu" v-bind:class="{'is-active': showMobileMenu}">
         <div class="navbar-end">
-          <router-link to="/summer" class="navbar-item">Summer</router-link>
-          <router-link to="/winter" class="navbar-item">Winter</router-link>
+          <router-link to="/rainroof" class="navbar-item">Rainroof</router-link>
+          <router-link to="/sunroof" class="navbar-item">Sunroof</router-link>
+          <router-link to="/coolroof" class="navbar-item">Coolroof</router-link>
         </div>
         <div class="navbar-item">
           <div class="buttons">
