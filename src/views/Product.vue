@@ -36,6 +36,7 @@ import { toast } from 'bulma-toast'
         },
         mounted(){
             this.getProducts()
+            document.title = 'Home | Djackets'
         },
         methods:{
             async getProducts(){
@@ -45,6 +46,7 @@ import { toast } from 'bulma-toast'
                 await axios.get(`/api/v1/products/${category_slug}/${product_slug}`)
                 .then((response)=>{
                      this.product = response.data
+                     document.title = this.product.name + ' | Checkroof'
                 })
                 .catch((error)=>{
                     console.log(error)
