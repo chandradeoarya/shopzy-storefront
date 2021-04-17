@@ -38,16 +38,19 @@ import { toast } from 'bulma-toast'
             this.getProducts()
         },
         methods:{
-            getProducts(){
+            async getProducts(){
+                this.$store.commit('setIsLoading', true)
                 const category_slug = this.$route.params.category_slug
                 const product_slug = this.$route.params.product_slug
-                axios.get(`/api/v1/products/${category_slug}/${product_slug}`)
+                await axios.get(`/api/v1/products/${category_slug}/${product_slug}`)
                 .then((response)=>{
                      this.product = response.data
                 })
                 .catch((error)=>{
                     console.log(error)
                 })
+            this.$store.commit('setIsLoading', false)
+
             },
             addToCart() {
                 if (isNaN(this.quantity) || this.quantity < 1) {
