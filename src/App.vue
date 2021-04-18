@@ -37,8 +37,14 @@
         </div>
         <div class="navbar-item">
           <div class="buttons">
-          <router-link to="/log-in" class="button is-light">Log in</router-link>
+            <template v-if="$store.state.isAuthenticated">
+              <router-link to="/my-account" class="button is-light">My account</router-link>
+            </template>
           
+            <template v-else>
+              <router-link to="/log-in" class="button is-light">Log in</router-link>
+            </template>
+
           <router-link to="/cart" class="button is-success">
             <span class="icon">
               <i class="fas fa-shopping-cart"></i>
