@@ -36,7 +36,7 @@ import { toast } from 'bulma-toast'
         },
         mounted(){
             this.getProducts()
-            document.title = 'Home | Djackets'
+            document.title = 'Home | Checkroof'
         },
         methods:{
             async getProducts(){

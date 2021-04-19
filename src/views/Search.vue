@@ -27,7 +27,7 @@
             }
         },
         mounted() {
-            document.title = 'Search | Djackets'
+            document.title = 'Search | Checkroof'
             let uri = window.location.search.substring(1)
             let params = new URLSearchParams(uri)
             if (params.get('query')) {

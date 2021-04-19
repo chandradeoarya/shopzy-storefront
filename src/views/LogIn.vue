@@ -50,7 +50,7 @@
             }
         },
         mounted() {
-            document.title = 'Log In | Djackets'
+            document.title = 'Log In | Checkroof'
         },
         methods: {
             async submitForm() {
