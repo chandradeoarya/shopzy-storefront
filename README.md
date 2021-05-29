@@ -55,17 +55,17 @@ A few of the things you can do with checkroof flexy insurance:
 - Vue build and decoupled AWS S3 static hosting
 
 <p align="center">
-  <img src = "https://github.com/chandradeoarya/checkroof-ecommerce-frontend/blob/master/screenshots/home.png?raw=true" width=700>
+  <img src = "https://github.com/chandradeoarya/shopzy-storefront/blob/master/screenshots/home.png?raw=true" width=700>
 </p>
 
 <p align="center">
-  <img src = "https://github.com/chandradeoarya/checkroof-ecommerce-frontend/blob/master/screenshots/product.png?raw=true" width=700>
+  <img src = "https://github.com/chandradeoarya/shopzy-storefront/blob/master/screenshots/product.png?raw=true" width=700>
 </p>
 
 <p align="center">
-  <img src = "https://github.com/chandradeoarya/checkroof-ecommerce-frontend/blob/master/screenshots/cart.png?raw=true" width=700>
+  <img src = "https://github.com/chandradeoarya/shopzy-storefront/blob/master/screenshots/cart.png?raw=true" width=700>
 </p>
 
 <p align="center">
-  <img src = "https://github.com/chandradeoarya/checkroof-ecommerce-frontend/blob/master/screenshots/payment.png?raw=true" width=700>
+  <img src = "https://github.com/chandradeoarya/shopzy-storefront/blob/master/screenshots/payment.png?raw=true" width=700>
 </p>
