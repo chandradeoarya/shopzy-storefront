@@ -4,7 +4,8 @@ import router from "./router";
 import store from "./store";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://3616dfec6f59.ngrok.io";
+axios.defaults.baseURL =
+  process.env.BASE_URL || "https://3616dfec6f59.ngrok.io";
 
 createApp(App)
   .use(store)
